@@ -1,27 +1,28 @@
-Bu Python uygulaması, kullanıcıların video dosyalarını karelerine ayırmasına ve bu kareleri birleştirerek yeni bir video dosyası oluşturmasına olanak tanır. Uygulama, tkinter kütüphanesi ile grafiksel bir kullanıcı arayüzü (GUI) sağlar ve ffmpeg aracıyla video işleme işlemlerini gerçekleştirir.
+Video Splitter and Merger Application
+This application allows users to split a video into individual frames and merge frames back into a video. Built using the Tkinter library for the GUI and FFmpeg for video processing, it offers an intuitive interface for managing video files.
 
-Özellikler
-Videoyu Ayırma:
-Kullanıcı, bir video dosyası seçebilir ve bu dosyadan kareler çıkartabilir.
-Çıktı olarak elde edilen kareler, kullanıcı tarafından belirlenmiş bir dizine PNG formatında kaydedilir.
-Kareleri Birleştirme:
-Kullanıcı, daha önce çıkartmış olduğu kareleri seçerek bu kareleri bir video dosyası haline getirebilir.
-Birleştirilen video, kullanıcı tarafından belirlenen bir dosya yoluna kaydedilir.
-Kullanım
-Kare Ayırma:
-"Videoyu Seç" butonuna tıklayarak işlenecek video dosyasını seçin.
-"Çıkış Dizini Seç" butonuyla karelerin kaydedileceği dizini belirleyin.
-"İşlemi Başlat" butonuna tıklayarak kare ayırma işlemini başlatın.
-Kareleri Birleştirme:
-"Kareleri Seç" butonuna tıklayarak daha önce çıkarttığınız karelerin bulunduğu dizini seçin.
-"Çıkış Video Yolunu Seç" butonuyla birleştirilecek videonun kaydedileceği dosya adını belirleyin.
-"Birleştirmeyi Başlat" butonuna tıklayarak birleştirme işlemini başlatın.
-Gereksinimler
+Features
+Split Video into Frames: Select a video file and an output directory to extract frames as PNG images.
+Merge Frames into Video: Choose a directory containing extracted frames and specify an output file to create a new video.
+User-Friendly Interface: Navigate through tabs for splitting and merging with simple button clicks.
+Theme Customization: A clean and modern design using the clam theme.
+Requirements
 Python 3.x
-tkinter kütüphanesi (genellikle Python ile birlikte gelir)
-ffmpeg (Sisteminizde yüklü olmalıdır)
-Kurulum
-ffmpeg'in sisteminizde yüklü olduğundan emin olun. Yükleme talimatları için FFmpeg resmi web sitesi ziyaret edilebilir.
-Uygulama dosyasını indirin ve çalıştırmak için terminal veya komut istemcisine python <dosya_adı>.py yazın.
-Katkıda Bulunma
-Bu projeye katkıda bulunmak isterseniz, pull request gönderebilir veya sorun bildirebilirsiniz. Geri bildirimler ve öneriler her zaman değerlidir!
+Tkinter (included with Python)
+FFmpeg (must be installed and accessible from the command line)
+Usage
+Splitting Video:
+Go to the "Kare Ayırma" tab.
+Click "Videoyu Seç" to choose a video file.
+Click "Çıkış Dizini Seç" to select a directory for saving frames.
+Click "İşlemi Başlat" to start the extraction process.
+Merging Frames:
+Switch to the "Birleştirme" tab.
+Click "Kareleri Seç" to select the directory containing the extracted frames.
+Click "Çıkış Video Yolunu Seç" to specify a filename for the new video.
+Click "Birleştirmeyi Başlat" to create the video from frames.
+License
+This project is open-source and available for modification and distribution. Please ensure to comply with any licensing terms related to the use of FFmpeg.
+
+Acknowledgments
+FFmpeg - The powerful multimedia framework for handling video, audio, and other multimedia files and streams.
