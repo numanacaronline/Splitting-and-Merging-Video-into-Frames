@@ -1,5 +1,3 @@
-Video Karelerine Ayırma ve Birleştirme Uygulaması
-Açıklama
 Bu Python uygulaması, kullanıcıların video dosyalarını karelerine ayırmasına ve bu kareleri birleştirerek yeni bir video dosyası oluşturmasına olanak tanır. Uygulama, tkinter kütüphanesi ile grafiksel bir kullanıcı arayüzü (GUI) sağlar ve ffmpeg aracıyla video işleme işlemlerini gerçekleştirir.
 
 Özellikler
