@@ -1,13 +1,8 @@
 Video Splitter and Merger Application
 This application allows users to split a video into individual frames and merge frames back into a video. Built using the Tkinter library for the GUI and FFmpeg for video processing, it offers an intuitive interface for managing video files.
+
+
 ![Splitting and Merging Video into Frames](https://github.com/numanacaronline/Splitting-and-Merging-Video-into-Frames/blob/main/1.png)
-
-![Splitting and Merging Video into Frames](https://github.com/numanacaronline/Splitting-and-Merging-Video-into-Frames/blob/main/2.png)
-
-
-![Splitting and Merging Video into Frames](https://github.com/numanacaronline/Splitting-and-Merging-Video-into-Frames/blob/main/3.png)
-
-
 
 Features
 Split Video into Frames: Select a video file and an output directory to extract frames as PNG images.
@@ -19,6 +14,18 @@ Python 3.x
 Tkinter (included with Python)
 FFmpeg (must be installed and accessible from the command line)
 Usage
+
+![Splitting and Merging Video into Frames](https://github.com/numanacaronline/Splitting-and-Merging-Video-into-Frames/blob/main/2.png)
+
+Splitting Video:
+Go to the "Kare Ayırma" tab.
+Click "Videoyu Seç" to choose a video file.
+Click "Çıkış Dizini Seç" to select a directory for saving frames.
+Click "İşlemi Başlat" to start the extraction process.
+
+![Splitting and Merging Video into Frames](https://github.com/numanacaronline/Splitting-and-Merging-Video-into-Frames/blob/main/3.png)
+
+
 Splitting Video:
 Go to the "Kare Ayırma" tab.
 Click "Videoyu Seç" to choose a video file.
